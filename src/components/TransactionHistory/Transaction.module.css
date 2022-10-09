@@ -1,0 +1,26 @@
+.transactions {
+  width: 600px;
+  background-color: white;
+  color: #a1a6ac;
+}
+
+.headers {
+  color: white;
+  background-color: #00bcd5;
+  text-align: center;
+}
+
+.row {
+  text-align: center;
+  padding: 4px 0;
+}
+
+.row:nth-child(2n) {
+  background-color: #ecf1f4;
+}
+
+.row:hover,
+.row:focus {
+  background-color: rgb(52, 47, 47);
+  color: cornsilk;
+}

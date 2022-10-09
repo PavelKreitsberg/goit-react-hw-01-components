@@ -1,0 +1,44 @@
+.item {
+  display: flex;
+  align-items: center;
+
+  border-radius: 8px;
+
+  margin-bottom: 4px;
+  padding: 8px;
+
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+}
+
+.item:hover {
+  background-color: rgb(52, 47, 47);
+  color: cornsilk;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.status {
+  display: block;
+  height: 16px;
+  width: 16px;
+  line-height: 1;
+  border-radius: 50%;
+  background-color: brown;
+}
+
+.isOnline {
+  composes: status;
+  background-color: green;
+}
+
+.avatar {
+  padding: 8px;
+}
+
+.name {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
